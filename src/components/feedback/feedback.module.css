@@ -61,7 +61,7 @@
 .team {
   display: grid;
   grid-template-columns: 6fr 6fr;
-  gap: 20px;
+  gap: 60px;
 }
 .gridLayout {
   display: grid;
@@ -84,7 +84,7 @@
 
 .leftColumn h1 {
   font-size: 2rem;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .leftColumn p {
@@ -97,6 +97,7 @@
 .rightColumn img {
   max-width: 100%;
 }
+
 @media (max-width: 768px) {
   .gridLayout {
     grid-template-columns: 1fr;

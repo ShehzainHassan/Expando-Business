@@ -18,9 +18,9 @@ export default function Footer() {
           <h1>Terms & Support</h1>
           <p>
             This website has been created with Canva, but the content is User
-            Content that is subject to our Terms of Use. If you see anything
-            that breaches our acceptable use policy, please report it to our
-            content review team.
+            Content that is subject to our <u>Terms of Use</u>. If you see
+            anything that breaches our <u>acceptable use policy</u>, please
+            report it to our content review team.
           </p>
           <div className={classes.modalButtons}>
             <button onClick={closeModal} className={classes.closeBtn}>
