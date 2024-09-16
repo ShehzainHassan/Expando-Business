@@ -1,4 +1,3 @@
-import Image from "next/image";
 import classes from "./page.module.css";
 import Banner from "@/components/banner/banner";
 import Navbar from "@/components/navbar/navbar";
