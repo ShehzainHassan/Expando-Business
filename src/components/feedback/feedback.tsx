@@ -54,8 +54,8 @@ export default function Feedback() {
                 team with deep insights into different markets and cultures. Our
                 mission is to help your business thrive in the U.S. market by
                 leveraging our unique blend of expertise and perspectives. We
-                don't just consult--we collaborate, innovate, and deliver real
-                results, making your American dream a successful reality.
+                don&apos;t just consult--we collaborate, innovate, and deliver
+                real results, making your American dream a successful reality.
               </p>
             </div>
           </div>

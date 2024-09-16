@@ -13,9 +13,9 @@ export default function AboutUs() {
                 <p className={classes.description}>
                   Welcome to your gateway to the US market. We specialize in
                   helping businesses from Latin America and Europe navigate the
-                  complexities of entering and thriving in one ​of the world's
-                  most lucrative markets. With ​tailored strategies and local
-                  expertise, your ​business can flourish overseas.
+                  complexities of entering and thriving in one of the
+                  world&apos;s most lucrative markets. With tailored strategies
+                  and local expertise, your business can flourish overseas.
                 </p>
                 <button className={classes.button}>GET IN TOUCH</button>
               </div>

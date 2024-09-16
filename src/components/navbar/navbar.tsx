@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import { useEffect, useRef, useState } from "react";
 import classes from "./navbar.module.css";
@@ -8,8 +9,8 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
+    const handleClickOutside = (event: any) => {
+      if (menuRef.current && !(menuRef.current as any).contains(event.target)) {
         setIsMenuOpen(false);
       }
     };
