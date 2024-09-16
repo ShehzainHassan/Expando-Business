@@ -1,0 +1,11 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f1ec;
+}
+.divider {
+  border: 3px dotted;
+  width: 100%;
+  max-width: 521px;
+  color: #cdad7d;
+}

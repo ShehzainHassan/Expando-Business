@@ -1,0 +1,85 @@
+.contact {
+  background-color: #f4f1ec;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.contact h1 {
+  font-weight: 500;
+}
+.contactUs,
+.officeHours {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 110px;
+  font-size: 1rem;
+}
+.contactUs {
+  margin-top: 0;
+}
+.contactUs h1,
+.officeHours h1 {
+  margin-bottom: 20px;
+}
+.contactUs li,
+.officeHours li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.officeHours li {
+  margin-bottom: 0;
+}
+.contactUs img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.days {
+  color: #cdad7d;
+}
+.time {
+  margin: 0;
+  color: black;
+  margin-bottom: 10px;
+}
+.social {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 15px;
+}
+.social img {
+  width: 40px;
+  height: 40px;
+}
+.follow {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  padding: 40px 110px;
+}
+.follow img {
+  width: 40px;
+  height: 40px;
+}
+.expando {
+  display: flex;
+  gap: 20px;
+}
+.expando p {
+  font-family: "Times New Roman", Times, serif;
+}
+.textContent {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.socialIcons {
+  display: flex;
+  gap: 10px;
+}

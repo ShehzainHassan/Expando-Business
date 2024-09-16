@@ -1,0 +1,58 @@
+.footer {
+  background-color: #f4f1ec;
+  position: relative;
+}
+.footerContent {
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.modal {
+  display: flex;
+  position: absolute;
+  top: -240px;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  display: block;
+  width: 20%;
+  background-color: white;
+  border-radius: 10px;
+}
+.modalButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.modal h1 {
+  margin-bottom: 10px;
+}
+.modal p {
+  margin-bottom: 10px;
+}
+.closeBtn,
+.reportBtn {
+  padding: 6px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #0e1318;
+  background-color: white;
+  cursor: pointer;
+}
+.reportBtn {
+  background-color: rgba(64, 87, 109, 0.07);
+}
+.reportBtn:hover {
+  background-color: gray;
+}
+.closeBtn:hover {
+  background-color: rgba(64, 87, 109, 0.07);
+}
