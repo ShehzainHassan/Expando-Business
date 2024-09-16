@@ -18,3 +18,42 @@
   font-weight: 700;
   color: #304254;
 }
+.menuButton {
+  display: none;
+}
+.menu {
+  display: none;
+}
+@media (max-width: 768px) {
+  .navbar a {
+    display: none;
+  }
+  .menuButton {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menuButton img {
+    width: 30px;
+    height: 30px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background-color: #f4f1ec;
+    color: black;
+    z-index: 2;
+    padding: 20px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+  }
+  .menu a {
+    font-size: 15px;
+    font-weight: 700;
+    color: #304254;
+  }
+}
