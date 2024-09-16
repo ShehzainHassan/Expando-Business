@@ -2,6 +2,37 @@ import Divider from "../divider/divider";
 import classes from "./digitalServices.module.css";
 
 export default function DigitalServices() {
+  const servicesList = [
+    "Website and E-commerce Store Setup",
+    "Digital Marketing and SEO Services",
+    "Analytics and Performance Monitoring",
+    "App Development and Launch",
+  ];
+
+  const businessStrategies = [
+    {
+      icon: "/img/phoneImg.svg",
+      alt: "phone",
+      title: "Consultation",
+      text: "We start with a deep dive into your business to understand your needs, goals, and challenges.",
+      width: "94px",
+    },
+    {
+      icon: "/img/docIcon.svg",
+      alt: "doc",
+      title: "Strategy Development",
+      text: "We develop a customized market entry strategy that aligns with your business objectives",
+      width: "70px",
+    },
+    {
+      icon: "/img/dartIcon.svg",
+      alt: "dart",
+      title: "Implementation & Support",
+      text: "Our team supports you at every step of the implementation, ensuring you make a successful entry into the US market.",
+      width: "94px",
+    },
+  ];
+
   return (
     <div id="services-2" className={classes.digitalServices}>
       <div className={classes.container}>
@@ -15,86 +46,37 @@ export default function DigitalServices() {
             store managing.
           </p>
           <ul>
-            <li className={classes.listItem}>
-              <img
-                src="/img/list-img.svg"
-                alt="list-img"
-                className={classes.icon}
-              />
-              Website and E-commerce Store Setup
-            </li>
-            <li className={classes.listItem}>
-              <img
-                src="/img/list-img.svg"
-                alt="list-img"
-                className={classes.icon}
-              />
-              Digital Marketing and SEO Services
-            </li>
-            <li className={classes.listItem}>
-              <img
-                src="/img/list-img.svg"
-                alt="list-img"
-                className={classes.icon}
-              />
-              Analytics and Performance Monitoring
-            </li>
-            <li className={classes.listItem}>
-              <img
-                src="/img/list-img.svg"
-                alt="list-img"
-                className={classes.icon}
-              />
-              App Development and Launch
-            </li>
+            {servicesList.map((service, index) => (
+              <li key={index} className={classes.listItem}>
+                <img
+                  src="/img/list-img.svg"
+                  alt="list-img"
+                  className={classes.icon}
+                />
+                {service}
+              </li>
+            ))}
           </ul>
         </div>
       </div>
+
       <Divider />
+
       <div className={classes.container2}>
         <h1>HOW TO GROW OR START YOUR BUSINESS IN THE USA</h1>
         <div className={classes.businessStrategies}>
-          <div className={classes.subContainer}>
-            <img
-              className={classes.strategyIcon}
-              src="/img/phoneImg.svg"
-              alt="phone"
-              width="94px"
-            />
-            <p className={classes.strategyTitle}>Consultation</p>
-            <p className={classes.strategyText}>
-              We start with a deep dive into your business to understand your
-              needs, goals, and challenges.
-            </p>
-          </div>
-
-          <div className={classes.subContainer}>
-            <img
-              className={classes.strategyIcon}
-              src="/img/docIcon.svg"
-              alt="doc"
-              width="70px"
-            />
-            <p className={classes.strategyTitle}>Strategy Development</p>
-            <p className={classes.strategyText}>
-              We develop a customized market entry strategy that aligns with
-              your business objectives
-            </p>
-          </div>
-
-          <div className={classes.subContainer}>
-            <img
-              className={classes.strategyIcon}
-              src="/img/dartIcon.svg"
-              alt="dart"
-              width="94px"
-            />
-            <p className={classes.strategyTitle}>Implementation & Support</p>
-            <p className={classes.strategyText}>
-              Our team supports you at every step of the implementation,
-              ensuring you make a successful entry into the US market.
-            </p>
-          </div>
+          {businessStrategies.map((strategy, index) => (
+            <div key={index} className={classes.subContainer}>
+              <img
+                className={classes.strategyIcon}
+                src={strategy.icon}
+                alt={strategy.alt}
+                width={strategy.width}
+              />
+              <p className={classes.strategyTitle}>{strategy.title}</p>
+              <p className={classes.strategyText}>{strategy.text}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>

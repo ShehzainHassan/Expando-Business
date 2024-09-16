@@ -2,16 +2,11 @@
   width: 100%;
   display: grid;
   grid-template-columns: 6fr 6fr;
-  background-image: url("/img/banner.jpg");
+  background: linear-gradient(rgba(0, 0, 85, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/img/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* .background {
-  filter: brightness(30%);
-}
-.resetBrightness {
-  filter: brightness(100%);
-} */
 
 .content {
   display: grid;
@@ -38,7 +33,6 @@
   margin-right: 10px;
 }
 .bannerImg {
-  /* filter: brightness(30%); */
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -90,7 +84,9 @@
     display: none;
   }
   .background {
-    background-image: url("/img/banner.jpg");
+    background: linear-gradient(rgba(0, 0, 85, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/img/banner.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
     height: unset;
