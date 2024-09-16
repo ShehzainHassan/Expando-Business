@@ -83,3 +83,27 @@
   display: flex;
   gap: 10px;
 }
+@media (max-width: 768px) {
+  .contactUs,
+  .officeHours,
+  .follow {
+    font-size: 15px;
+    padding: 15px;
+  }
+  .social {
+    gap: 50px;
+  }
+  .contactUs li,
+  .officeHours li {
+    font-size: 15px;
+  }
+  .textContent {
+    flex-direction: column;
+    font-size: 16px;
+    gap: 10px;
+  }
+  .follow img {
+    width: 33px;
+    height: 33px;
+  }
+}
