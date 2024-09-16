@@ -11,9 +11,7 @@ export default function Banner() {
             <p>EXPANDO</p>
           </div>
           <div className={`${classes.textOverlay} ${classes.resetBrightness}`}>
-            <h1 className={classes.title}>
-              Top-notch <br /> business services
-            </h1>
+            <h1 className={classes.title}>Top-notch business services</h1>
             <p className={classes.description}>
               Expert guidance to establish and expand <br /> your Latin American
               or European <br /> business in the USA.

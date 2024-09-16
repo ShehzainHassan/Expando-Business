@@ -34,16 +34,19 @@ export default function Navbar() {
         <a href="#contact">Contact</a>
       </div>
 
-      {isMenuOpen && (
-        <div className={classes.menu} ref={menuRef}>
-          <a href="#home">Home</a>
-          <a href="#about">About Us</a>
-          <a href="#services">Services</a>
-          <a href="#services-2">Services</a>
-          <a href="#feedback">Feedback</a>
-          <a href="#contact">Contact</a>
-        </div>
-      )}
+      {isMenuOpen && <div className={classes.backgroundOverlay} />}
+      <div
+        className={`${classes.menu} ${
+          isMenuOpen ? classes.open : classes.closed
+        }`}
+        ref={menuRef}>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#services-2">Services</a>
+        <a href="#feedback">Feedback</a>
+        <a href="#contact">Contact</a>
+      </div>
     </>
   );
 }
