@@ -8,8 +8,8 @@
 }
 .subContent {
   display: flex;
+  padding: 40px;
   flex-direction: column;
-  justify-content: center;
 }
 .mainServices {
   display: flex;
@@ -28,19 +28,7 @@
 
 .rightColumn {
   display: grid;
-  grid-template-columns: 6fr 6fr;
-  /* flex: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center; */
-
-  /* width: calc(122.18137915% * max(1, var(--scale-fill, 1)));
-  height: calc(139.03713184% / min(1, var(--scale-fill, 1)));
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  opacity: 1;
-  animation: auto ease 0s 1 normal none running none; */
+  grid-template-columns: 7fr 5fr;
 }
 
 .rightColumn img {
@@ -79,25 +67,27 @@
 
 .title {
   font-family: "Times New Roman", Times, serif;
-  font-size: 50px;
+  font-size: 56px;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 
 .description {
-  font-size: 1.2rem;
+  font-size: 22px;
+  font-weight: 400;
   margin-bottom: 25px;
   line-height: 1.5;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .button {
-  padding: 10px 20px;
+  padding: 20px 30px;
   color: black;
   cursor: pointer;
   border: none;
   font-size: 1rem;
   background-color: #cdad7d;
-  width: 25%;
+  width: 30%;
   min-width: 200px;
   font-size: 18px;
   font-weight: bold;

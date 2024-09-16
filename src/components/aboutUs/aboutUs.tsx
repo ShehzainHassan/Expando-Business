@@ -9,16 +9,13 @@ export default function AboutUs() {
             <div className={classes.textContent}>
               <div />
               <div className={classes.subContent}>
-                <h1 className={classes.title}>
-                  Unlock the US <br /> Market
-                </h1>
+                <h1 className={classes.title}>Unlock the US Market</h1>
                 <p className={classes.description}>
-                  Welcome to your gateway to the US market. <br />
-                  We specialize in helping businesses from <br /> Latin America
-                  and Europe navigate the <br /> complexities of entering and
-                  thriving in one <br /> ​of the world's most lucrative markets.
-                  With ​<br /> tailored strategies and local expertise, your{" "}
-                  <br /> ​business can flourish overseas.
+                  Welcome to your gateway to the US market. We specialize in
+                  helping businesses from Latin America and Europe navigate the
+                  complexities of entering and thriving in one ​of the world's
+                  most lucrative markets. With ​tailored strategies and local
+                  expertise, your ​business can flourish overseas.
                 </p>
                 <button className={classes.button}>GET IN TOUCH</button>
               </div>

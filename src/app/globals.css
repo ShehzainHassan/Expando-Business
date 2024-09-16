@@ -41,6 +41,25 @@ a {
 
 h1 {
   color: black;
+  animation: 1000ms ease 100ms 1 normal both running banner_anim,
+    400ms linear 0s 1 normal both linear_fade;
+}
+@keyframes banner_anim {
+  0% {
+    transform: translate(0px, 80px);
+    animation-timing-function: cubic-bezier(0.4, 0.8, 0.74, 1);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes linear_fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 body,

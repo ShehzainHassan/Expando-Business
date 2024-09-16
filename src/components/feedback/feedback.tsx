@@ -28,7 +28,7 @@ export default function Feedback() {
           alt="people"
         />
         <div className={classes.textOverlay}>
-          <h1>Success Stories</h1>
+          <h1 style={{ color: "#cdad7d" }}>Success Stories</h1>
           <p>Why you should hire our Agency</p>
           <div className={classes.comments}>
             {comments.map((comment, index) => (
